@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-device-farm`](https://www.npmjs.com/package/@aws-sdk/client-device-farm/v/3.641.0).
+[`@aws-sdk/client-device-farm`](https://www.npmjs.com/package/@aws-sdk/client-device-farm/v/3.645.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-device-farm@3.641.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-device-farm@3.645.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-1oucfbY535Af1Ed3nW6od0nHB2d2zG2jc+XIPJ/DNpO1f1pmMDPoUZs0P35yM6G6
+sha384-1CcELTgV+U/L0qbuFafgNgPVkP1ktCSg0tguBTk+zQr6WUsM1YecdL3r2Myx0NrI
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-device-farm": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-device-farm@3.641.0/index.min.mjs"
+            "@aws-sdk/client-device-farm": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-device-farm@3.645.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-device-farm@3.641.0/index.min.mjs": "sha384-1oucfbY535Af1Ed3nW6od0nHB2d2zG2jc+XIPJ/DNpO1f1pmMDPoUZs0P35yM6G6"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-device-farm@3.645.0/index.min.mjs": "sha384-1CcELTgV+U/L0qbuFafgNgPVkP1ktCSg0tguBTk+zQr6WUsM1YecdL3r2Myx0NrI"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-device-farm": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-device-farm@3.641.0/index.min.mjs"
+                        "@aws-sdk/client-device-farm": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-device-farm@3.645.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-device-farm@3.641.0/index.min.mjs": "sha384-1oucfbY535Af1Ed3nW6od0nHB2d2zG2jc+XIPJ/DNpO1f1pmMDPoUZs0P35yM6G6"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-device-farm@3.645.0/index.min.mjs": "sha384-1CcELTgV+U/L0qbuFafgNgPVkP1ktCSg0tguBTk+zQr6WUsM1YecdL3r2Myx0NrI"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.641.0`)
+* Always pin to a specific version (`@3.645.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-device-farm/blob/refs/tags/3.641.0/LICENSE
+https://github.com/cloud-sdk-builds/client-device-farm/blob/refs/tags/3.645.0/LICENSE
 ```
 
 ---
